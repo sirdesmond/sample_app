@@ -4,7 +4,7 @@ gem 'rails', '3.2.11'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
-  gem 'rspec-rails'
+  gem 'rspec-rails','2.12.2'
   
 end
 
@@ -19,7 +19,7 @@ end
 gem 'jquery-rails', '2.0.2'
 
 group :test do
-  gem 'capybara'
+  gem 'capybara', '2.0.2'
 end
 
 group :production do
